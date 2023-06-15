@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+
+body{
+    background-color: #eef1ef
+}
+
+.conteinerNav{
+    background-color: rgba(211, 211, 211, 0.596);
+}
+
+.navList{
+    font-size: 20px;
+    margin: 0px 5px 5px;
+}
+.itemList{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color: #000;
+}
+.itemList:hover{
+    color: #fa0404;
+    cursor: pointer;
+}
+.itemList > a{
+    color: #fca311;
+    text-decoration: none;
+}
+.itemList > a:hover{
+    color: #fa0404;
+}
+
+.navTitle{
+    font-family: sans-serif;
+    display: block;
+    color: #fca311;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 200;
+    cursor: default;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fca311;
+    padding: 30px;
+}
+
+.sectionForm{
+    text-align: center;
+    background-image: url('../multimedia/image/lambopequeño.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.formContact{
+    display: block;
+    border: 1px solid red;
+}
+
+.form:hover{
+    background-color: rgba(211, 211, 211, 0.205);
+    transform: scale(1.1);
+}
+
+.form{
+    display: block;
+    margin: 10px;
+    margin-left: 25%;
+    width: 50%;
+    background: none;
+    color: #ffffff;
+    border-radius: 5px;
+    /* border: 2px solid #000; */
+}
+
+.buttom{
+    width: 50%;
+}
+
+.footer{
+    background-color: rgba(211, 211, 211, 0.596);
+    padding: 20px;
+    margin-top: 50px;
+    cursor: default;
+}
